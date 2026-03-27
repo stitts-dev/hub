@@ -1,6 +1,6 @@
 {
   "name": "mcp-tts",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "ElevenLabs TTS for Claude Code — gives Claude a voice via the speak tool",
   "author": {
     "name": "stitts-dev"
