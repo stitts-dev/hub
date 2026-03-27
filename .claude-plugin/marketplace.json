@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "stitts-plugins",
+  "description": "Custom plugins and skills by stitts-dev",
+  "owner": {
+    "name": "stitts-dev",
+    "email": "stitts.dev@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "mcp-tts",
+      "description": "ElevenLabs TTS for Claude Code — gives Claude a voice via the speak tool. Synthesizes text to speech using ElevenLabs WebSocket API and plays audio via afplay (macOS).",
+      "category": "productivity",
+      "source": "./external_plugins/mcp-tts",
+      "homepage": "https://github.com/stitts-dev/mcp-tts"
+    }
+  ]
+}
