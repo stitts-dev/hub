@@ -1,6 +1,0 @@
-{
-  "tts": {
-    "command": "npx",
-    "args": ["-y", "github:stitts-dev/mcp-tts"]
-  }
-}

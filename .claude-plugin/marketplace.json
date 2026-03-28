@@ -9,9 +9,13 @@
   "plugins": [
     {
       "name": "mcp-tts",
-      "description": "ElevenLabs TTS for Claude Code — gives Claude a voice via the speak tool. Synthesizes text to speech using ElevenLabs WebSocket API and plays audio via afplay (macOS).",
+      "description": "TTS for Claude Code — gives Claude a voice via ElevenLabs or local Piper",
       "category": "productivity",
-      "source": "./plugins/mcp-tts",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/stitts-dev/mcp-tts.git",
+        "sha": "1e6c27a439a5e98a85cf097f718b6c0a4d0827a5"
+      },
       "homepage": "https://github.com/stitts-dev/mcp-tts"
     }
   ]
